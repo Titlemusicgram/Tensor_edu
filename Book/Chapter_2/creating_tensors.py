@@ -1,7 +1,8 @@
+import os
+os.environ['TF_CPP_MIN_LOG_LEVEL'] = "2"
+
 import tensorflow as tf
 
-
-tf.ones(1) # просто чтобы информационное сообщение не лезло в вывод
 
 print('\n№1 Тензор размером в 2 строки по 3 столбца, заполненный нулями типа int\n\nКак объект:')
 zero_tensor = tf.zeros([2, 3], dtype=tf.int32)

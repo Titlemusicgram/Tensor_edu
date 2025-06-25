@@ -1,7 +1,8 @@
+import os
+os.environ['TF_CPP_MIN_LOG_LEVEL'] = "2"
+
 import tensorflow as tf
 
-
-tf.ones(1) # просто чтобы информационное сообщение не лезло в вывод
 
 print('\n№1 Сложение тензоров можно делать обычным оператором. Сложим 2 единичных тензора и получим двойки')
 a = tf.ones([2,2], dtype=tf.int32)

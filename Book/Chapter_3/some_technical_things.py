@@ -1,7 +1,7 @@
-import tensorflow as tf
+import os
+os.environ['TF_CPP_MIN_LOG_LEVEL'] = "2"
 
-tf.ones(1)
-print('\n')
+import tensorflow as tf
 
 
 # Области имен
