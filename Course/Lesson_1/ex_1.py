@@ -2,7 +2,6 @@ import os
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = "2"
 
 import tensorflow as tf
-from tensorflow.python import keras
 
 x = tf.Variable([[2.0]])
 y = tf.Variable([[-4.0]])
